@@ -1,1576 +1,1367 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width initial-scale=1" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <!-- Materialize - Compiled and minified CSS-->
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
-            />
-        <!-- Font Awesome Icon - CSS-->
-        <link
-            rel="stylesheet"
-            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
-            />
-        <title>Luigi Balotta | Full-Stack Developer</title>
-        <!-- Open Graph-->
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Luigi Balotta | Full-Stack Developer" />
-        <meta property="og:description" content="I want to make things that make a difference." />
-        <meta property="og:url" content="curriculum.luigibalotta.com" />
-        <meta property="og:site_name" content="Luigi Balotta | Full-Stack Front-End Developer" />
-        <meta property="article:publisher" content="curriculum.luigibalotta.it" />
-        <meta property="og:image" content="" />
-        <meta name="author" content="Luigi Balotta" />
-        <meta name="description" content="I want to make things that make a difference." />
-        <link
-            rel="apple-touch-icon"
-            sizes="57x57"
-            href="assets/img/favicon/apple-icon-57x57.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="60x60"
-            href="assets/img/favicon/apple-icon-60x60.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="72x72"
-            href="assets/img/favicon/apple-icon-72x72.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="76x76"
-            href="assets/img/favicon/apple-icon-76x76.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="114x114"
-            href="assets/img/favicon/apple-icon-114x114.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="120x120"
-            href="assets/img/favicon/apple-icon-120x120.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="144x144"
-            href="assets/img/favicon/apple-icon-144x144.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="152x152"
-            href="assets/img/favicon/apple-icon-152x152.png"
-            />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="assets/img/favicon/apple-icon-180x180.png"
-            />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="192x192"
-            href="assets/img/favicon/android-icon-192x192.png"
-            />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="assets/img/favicon/favicon-32x32.png"
-            />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="96x96"
-            href="assets/img/favicon/favicon-96x96.png"
-            />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="assets/img/favicon/favicon-16x16.png"
-            />
-        <link rel="manifest" href="assets/img/favicon/manifest.json" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta
-            name="msapplication-TileImage"
-            content="assets/img/favicon/ms-icon-144x144.png"
-            />
-        <meta name="theme-color" content="#ffffff" />
-        <!--if lt IE 9script(src='//html5shim.googlecode.com/svn/trunk/html5.js')
-            -->
-        <meta name="robots" content="index, follow" />
-    </head>
-    <body>
-        <!-- Custom Styles-->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- Navigation Menu-->
-        <nav class="hide-on-small-only">
-            <ul class="side-nav fixed section table-of-contents">
-                <li class="logo">
-                    <a
-                        id="logo-container"
-                        aria-label="Navigate to the beginning of the page"
-                        href="#intro"
-                        class="brand-logo teal-text"
-                        >
-                        <h1>
-                            Luigi Balotta<span class="brown-text light"
-                                >Full Stack Developer</span
-                                >
-                        </h1>
-                    </a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the About section"
-                        href="#about"
-                        class="waves-effect waves-dark teal-text"
-                        ><i class="mdi-social-person small"></i><span>About</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Experience section"
-                        href="#experience"
-                        class="waves-effect waves-dark cyan-text"
-                        ><i class="mdi-action-trending-up small"></i
-                        ><span>Experience</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Projects section"
-                        href="#projects"
-                        class="waves-effect waves-dark indigo-text"
-                        ><i class="mdi-av-web small"></i><span>Projects</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Skills section"
-                        href="#skills"
-                        class="waves-effect waves-dark purple-text"
-                        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Awards section"
-                        href="#awards"
-                        class="waves-effect waves-dark red-text"
-                        ><i class="mdi-action-grade small"></i><span>Awards</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Education section"
-                        href="#education"
-                        class="waves-effect waves-dark orange-text"
-                        ><i class="mdi-social-school small"></i><span>Education</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Contact section"
-                        href="#contact"
-                        class="waves-effect waves-dark brown-text"
-                        ><i class="mdi-content-mail small"></i><span>Contact</span></a
-                        >
-                </li>
-                <!--<li class="bold">
-                    <a
-                        aria-label="Navigate to the Blog section"
-                        href="#blog"
-                        class="waves-effect waves-dark yellow-text text-darken-2"
-                        ><i class="mdi-content-create small"></i><span>Blog</span></a
-                        >
-                </li>-->
-                <!--<li class="bold">
-                    <a
-                      aria-label="Open Andrew's resume in a new tab"
-                      href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
-                      target="_blank"
-                      class="waves-effect waves-dark grey-text text-darken-3"
-                      ><i class="mdi-action-description small"></i><span>Resume</span></a
-                    >
-                    </li>-->
-            </ul>
-        </nav>
-        <nav class="hide-on-large only trigger z-depth-1">
-            <a
-                aria-label="Toggle visibility of the mobile navbar"
-                href="#"
-                data-activates="slide-out"
-                class="button-collapse"
-                ><i class="mdi-navigation-menu"></i
-                ></a>
-            <div class="name-title">
-                <a
-                    id="name"
-                    aria-label="Navigate to the beginning of the page"
-                    href="#main"
-                    class="teal-text"
-                    >Luigi Balotta</a
-                    ><span class="brown-text light">Full Stack Developer</span>
-            </div>
-        </nav>
-        <nav class="hide-on-large only">
-            <ul id="slide-out" class="side-nav">
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the About section"
-                        href="#about"
-                        class="waves-effect waves-dark teal-text"
-                        ><i class="mdi-social-person small"></i><span>About</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Experience section"
-                        href="#experience"
-                        class="waves-effect waves-dark cyan-text"
-                        ><i class="mdi-action-trending-up small"></i
-                        ><span>Experience</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Projects section"
-                        href="#projects"
-                        class="waves-effect waves-dark indigo-text"
-                        ><i class="mdi-av-web small"></i><span>Projects</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Skills section"
-                        href="#skills"
-                        class="waves-effect waves-dark purple-text"
-                        ><i class="mdi-av-equalizer small"></i><span>Skills</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Awards section"
-                        href="#awards"
-                        class="waves-effect waves-dark red-text"
-                        ><i class="mdi-action-grade small"></i><span>Awards</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Education section"
-                        href="#education"
-                        class="waves-effect waves-dark orange-text"
-                        ><i class="mdi-social-school small"></i><span>Education</span></a
-                        >
-                </li>
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Contact section"
-                        href="#contact"
-                        class="waves-effect waves-dark brown-text"
-                        ><i class="mdi-content-mail small"></i><span>Contact</span></a
-                        >
-                </li>
-                <!--
-                <li class="bold">
-                    <a
-                        aria-label="Navigate to the Contact section"
-                        href="#blog"
-                        class="waves-effect waves-dark yellow-text text-dark-3"
-                        ><i class="mdi-content-mail small"></i><span>Blog</span></a
-                        >
-                </li>-->
-                <!--<li class="bold">
-                    <a
-                      aria-label="Open Andrew's Resume in a new tab"
-                      href="https://docs.google.com/document/d/1evlvmAcOmPTttl1isyX_UcQbLO5pK8OwB4Rs2Sv4riY"
-                      target="_blank"
-                      class="waves-effect waves-dark grey-text text-darken-3"
-                      ><i class="mdi-action-description small"></i><span>Resume</span></a
-                    >
-                    </li>-->
-            </ul>
-        </nav>
-        <!-- Main Content-->
-        <main>
-            <section id="intro" class="section scrollspy full-height">
-                <div class="overlay"></div>
-                <div class="container">
-                    <h2>
-                        I want to <span class="teal">make things</span><br />that
-                        <span class="underline">make a difference</span>.
-                    </h2>
-                </div>
-            </section>
-            <section id="about" class="section scrollspy">
-                <h3 class="page-title white-text teal">About</h3>
-                <div class="container flow-text">
-                    <blockquote>
-                        <h2>
-                            Full Stack developer with a passion for lots of programming languages, collaboration, and music.
-                        </h2>
-                    </blockquote>
-                    <p>
-                        I've started to develop since I was 15 y/o at school using
-                        C++, C# and PHP. When I completed my school career I worked in
-                        open source projects regarding World of Warcraft emulation and
-                        Web Development. <br/>
-                        I've always search for always-challenging job opportunities because 
-                        I think that software development can be always be harder than the actual knowledge,
-                        you never stop learning new things! <br/>
-                        I also like working in a development team and learn as much as possible from different people.<br/>
-                    </p>
-                    <p>
-                        I'm also a musician and a producer, I play guitar in my band "WallBang". <br/>
-                        I also record instruments, I mix then and I release songs :)
-                    </p>
-                    <!--<p>
-                        <strong>Current Focus</strong>:&nbsp;<a
-                          aria-label="Navigate to the Inclusive Design Patterns homepage"
-                          href="https://www.smashingmagazine.com/inclusive-design-patterns/"
-                          >Accessibility</a
-                        >&nbsp;//&nbsp;<a
-                          aria-label="Navigate to the Full Stack React homepage"
-                          href="https://www.fullstackreact.com/"
-                          >React</a
-                        >&nbsp;//&nbsp;<a
-                          aria-label='Navigate to the article "Scalable CSS"'
-                          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/"
-                          >Design Systems</a
-                        >
-                        </p>-->
-                </div>
-            </section>
-            <section id="experience" class="section scrollspy">
-                <h3 class="page-title white-text teal">Experience</h3>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s12 m2">
-                                    <a href="https://webagency.thebbsway.com/" target="_blank"
-                                        ><img
-                                        alt="The BB's Way logo"
-                                        src="assets/img/loghi/thebbsway_logo.png"
-                                        class="responsive-img center-block"
-                                        /></a>
-                                </div>
-                                <div class="col s12 m10">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a
-                                            href="https://webagency.thebbsway.com/"
-                                            target="_blank"
-                                            class="teal-text hoverline"
-                                            >The BB's Way</a
-                                            ></span
-                                            >
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="role brown-text">Full-Stack Senior Software Developer</div>
-                            <p>
-                                <em class="grey-text"
-                                    >Digital Agency that can provide support for SEO, Social Network, Software Development, Graphics. More in general: Communication</em
-                                    >
-                            </p>
-                            <h6>Develop Product</h6>
-                            <ul>
-                                <li>
-                                    Created lots of web-based software with Single Sign On (SSO) feature, almost everything separated in a Client-Server structure.
-                                </li>
-                                <li>
-                                    Mobile applications integrated with the same SSO written in Swift 5 for iOS devices.
-                                </li>
-                                <li>
-                                    Lead full-stack developer, I can organize a project from scratch, from the database structure to API server logic. From API response to "How to organize the data graphically" in the client.
-                                </li>
-                                <li>
-                                    Modular oriented programming style: I always try to find a good way to re-use the code.
-                                </li>
-                                <li>
-                                    Tools: .NET Core, NodeJS, PHP with CodeIgniter, MySQL, SQLite, Swift 5 // Angular 9, JS, jQuery // CSS, SCSS // HTML, JSON, XML
-                                </li>
-                            </ul>
-                            <h6>Accomplishments</h6>
-                            <ul>
-                                <li>
-                                    Single Sign On System to handle all user data, permission etc.. for every web-app we made
-                                </li>
-                                <li>
-                                    Every app of the Suite can communicate with other applications to exchange various type of data.
-                                </li>
-                                <li>
-                                    <ul>
-                                        <li>
-                                            Account management system ( who can access what and what can he/she do inside that system etc... )
-                                        </li>
-                                        <li>
-                                            Ticketing System
-                                        </li>
-                                        <li>
-                                            Team Work management system (Scrumboard, shared custom calendar, chat system with Socket.IO)
-                                        </li>
-                                        <li>
-                                            CD-Key manager for our client "Gruppo INFOR"
-                                        </li>
-                                        <li>
-                                            IT Assets manager: e.g. In our company we have some computers that are assigned to a lot of people, we can know how all hardware specifications for every single device, when we bought it, how much it cost and much more...
-                                        </li>
-                                        <li>
-                                            Business Management software for our client ABExport. It will help them to manage all the articles they sell (or buy) and keep track of all the documents ( like invoices, ddt, packing list etc.. )
-                                        </li>
-                                        <li>
-                                            <a href="https://sportsfund.it" target="_blank">Sports Fund</a>: it's a crowd funding platform for sport teams. You can donate money though PayPal.
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    iOS Application called "Progetto Regionale", it permits to keep track of accidents though a survey. It was made for <a href="https://www.inail.it/cs/internet/home.html" target="_blank">INAIL</a>. We have an android application written with Xamarin.Forms
-                                </li>
-                                <li>
-                                    Some small application were made using Angular as Client and <a href="https://firebase.google.com/" target="_blank">Firebase</a> as a server/database.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-action">
-                            <span>Dec 2019 - Present | Parma, PR</span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s12 m2">
-                                    <a href="http://www.transferoil.com/" target="_blank"
-                                        ><img
-                                        alt="Transfer Oil logo"
-                                        src="assets/img/loghi/transferoil_logo.png"
-                                        class="responsive-img center-block"
-                                        /></a>
-                                </div>
-                                <div class="col s12 m10">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a
-                                            href="http://www.transferoil.com/"
-                                            target="_blank"
-                                            class="teal-text hoverline"
-                                            >Transfer Oil</a
-                                            ></span
-                                            >
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="role brown-text">Full Stack Developer</div>
-                            <p>
-                                <em class="grey-text">
-                                    As the only web-developer of the company, I developed some web application/utility, mainly for the IT department.
-                                </em>
-                            </p>
-                            <ul>
-                                <li>
-                                    .NET Core API servers with SQLServer/MySql databases. Sometimes I used also AS400 to retrieve or write data from some utility applications.
-                                </li>
-                                <li>
-                                    I was hired to develop a new public website for the company and a private website for customers, the goal was to let them use that portal instead of sending pdf for invoices.
-                                </li>
-                                <li>
-                                    Sometimes I used Python 3.7 ( I studied this language there since sometimes I had time to follow some lessons on udemy ) to make simple application with Django Rest Framework.
-                                    <ul>
-                                        <li>
-                                            <a href="https://www.udemy.com/course/guida-pratica-e-completa-a-django-2-e-bootstrap-4/" target="_blank">Guida Pratica e Completa a Django, Python e Bootstrap</a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.udemy.com/course/guida-per-sviluppatori-a-django-rest-framework-e-vue-js/" target="_blank">Guida per Sviluppatori a Django REST Framework e Vue JS</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-action">
-                            <span>Feb 2019 - Dec 2019 | Sacca, PR</span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s12 m2">
-                                    <a href="https://www.exelis.it/" target="_blank"
-                                        ><img
-                                        alt="Exelis logo"
-                                        src="assets/img/loghi/exelis_logo.png"
-                                        class="responsive-img center-block"
-                                        /></a>
-                                </div>
-                                <div class="col s12 m10">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a
-                                            href="https://www.exelis.it/"
-                                            target="_blank"
-                                            class="teal-text hoverline"
-                                            >Exelis</a
-                                            ></span
-                                            >
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="role brown-text">Full Stack Junior Developer</div>
-                            <p>
-                                <em class="grey-text">
-                                    The place where I really learned coding great applications, basically where I started to grow as a softare developer. <br/>
-                                    Exelis is a company that work in Media Advertising. The channel we could handle were: Radio, TV, Internet, Newspapers.
-                                </em>
-                            </p>
-                            <ul>
-                                <li>
-                                    Using ASP.Net MVC 5 (.NET Framework) we made all of our software. SQL Server as Database.
-                                </li>
-                                <li>
-                                    I made <a href="https://www.exelis.it/prodotti-servizi/lilium/" target="_blank">Lilium</a>, a web application that could handle newspaper advertising, in particular <strong>obituaries</strong> and other types of ads (like "I sell home", "Looking for a job" etc..)<br/>
-                                    I used ASP.NET for the entire application, XSL FOP for rendering the ads as if it was on the newspaper.
-                                    The application communicate with Hedera ( a Mago4 IT management software extension ) to handle the costs of an AD.
-                                </li>
-                                <li>
-                                    I made <a href="https://www.exelis.it/prodotti-servizi/larix/" target="_blank">Larix</a>, a web application to handle <strong>outdoor advertising campaigns</strong>.<br/>
-                                    The most difficult part of this software was to calculate in a specific period where you could put a billboard and how much space (m²) was left for another campaign.
-                                </li>
-                                <li>
-                                    I achieved <strong>MCSA Windows Server 2016</strong> certificate.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-action">
-                            <span>Nov 2016 - Feb 2019 | Bagnolo In Piano, RE</span>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="row">
-                                <div class="col s12 m2">
-                                    <a href="http://www.transferoil.com/" target="_blank"
-                                        ><img
-                                        alt="Transfer Oil logo"
-                                        src="assets/img/loghi/transferoil_logo.png"
-                                        class="responsive-img center-block"
-                                        /></a>
-                                </div>
-                                <div class="col s12 m10">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a
-                                            href="http://www.transferoil.com/"
-                                            target="_blank"
-                                            class="teal-text hoverline"
-                                            >Transfer Oil</a
-                                            ></span
-                                            >
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="role brown-text">Junior Web Developer</div>
-                            <p>
-                                <em class="grey-text">
-                                    I started working with a training internship to develop the new company website
-                                </em>
-                            </p>
-                            <ul>
-                                <li>
-                                    I used PHP to build web application without using any framework.
-                                </li>
-                                <li>
-                                    I used jQuery and other third party libraries for the User Interface
-                                </li>
-                                <li>
-                                    I used MySql as database, sometimes AS400 database too.
-                                </li>
-                                <li>
-                                    I wrote some utility application using Windows Forms with C# .NET Framework.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="card-action">
-                            <span>Sep 2015 - Feb 2016 | Sacca, PR</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="projects" class="section scrollspy">
-                <h3 class="page-title white-text teal">Projects</h3>
-                <div class="container">
-                    <p>
-                        <em class="grey-text">
-                            For privacy reasons I can only link public repositories/projects I worked on. <br/>
-                            By clicking the project name you can view some technical information.
-                        </em>
-                    </p>
-                    <div class="row">
-                        <!-- Sports Fund-->
-                        <div class="col s12 m6 l4">
-                            <div class="card medium">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img
-                                        alt="Screenshot of Sports Fund web app"
-                                        src="assets/img/misc/sportsfund.png"
-                                        class="activator"
-                                        />
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title activator teal-text hoverline"
-                                        >Sports Fund<i class="mdi-navigation-more-vert right"></i
-                                        ></span>
-                                    <p>
-                                        CrowdFunding platform dedicated to amateur sports clubs
-                                    </p>
-                                </div>
-                                <div class="card-reveal">
-                                    <span class="card-title brown-text"
-                                        >Accomplishments<i class="mdi-navigation-close right"></i
-                                        ></span>
-                                    <ul>
-                                        <li><strong>.NET Core 2.1</strong> backend</li>
-                                        <li><strong>Bootstrap </strong> frontend</li>
-                                        <li><strong>MySql</strong> database</li>
-                                        <li><strong>Paypal</strong> integration</li>
-                                    </ul>
-                                    <div class="card-action">
-                                        <a
-                                            aria-label="Visit Sports Fund web app"
-                                            href="https://sportsfund.it/"
-                                            target="_blank"
-                                            data-position="top"
-                                            data-tooltip="View Online"
-                                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                                            ><i class="fa fa-external-link"></i></a
-                                            >
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- TrinityCore-->
-                        <div class="col s12 m6 l4">
-                            <div class="card medium">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img
-                                        alt="Screenshot of TrinityCore WoW Emulator"
-                                        src="assets/img/misc/trinitycore.png"
-                                        class="activator"
-                                        />
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title activator teal-text hoverline"
-                                        >TrinityCore<i class="mdi-navigation-more-vert right"></i
-                                        ></span>
-                                    <p>
-                                        TrinityCore Open Source MMO Framework
-                                    </p>
-                                </div>
-                                <div class="card-reveal">
-                                    <span class="card-title brown-text"
-                                        >Accomplishments<i class="mdi-navigation-close right"></i
-                                        ></span>
-                                    <ul>
-                                        <li><strong>C++</strong> framework</li>
-                                        <li><strong>MySql</strong> database</li>
-                                        <li><strong>Open Source</strong> project</li>
-                                        <li><strong>C#</strong> <a target="_blank" href="https://github.com/CypherCore/CypherCore">alternative</a></li>
-                                    </ul>
-                                    <div class="card-action">
-                                        <a
-                                            aria-label="Visit TrinityCore website"
-                                            href="https://www.trinitycore.org/"
-                                            target="_blank"
-                                            data-position="top"
-                                            data-tooltip="View Online"
-                                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                                            ><i class="fa fa-external-link"></i></a
-                                            ><a
-                                            aria-label="Visit the GitHub repo for TrinityCore project"
-                                            href="https://github.com/TrinityCore/TrinityCore"
-                                            target="_blank"
-                                            data-position="top"
-                                            data-tooltip="View Source"
-                                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                                            ><i class="fa fa-github"></i
-                                            ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Code Island-->
-                        <div class="col s12 m6 l4">
-                            <div class="card medium">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img
-                                        alt="Warcraft2Unity3D logo"
-                                        src="assets/img/misc/Unity.jpg"
-                                        class="activator"
-                                        />
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title activator teal-text hoverline">
-                                        Warcraft 2 Unity3D
-                                        <i class="mdi-navigation-more-vert right"></i>
-                                    </span>
-                                    <p>
-                                        A project to study World of Warcraft client mechanism.
-                                    </p>
-                                </div>
-                                <div class="card-reveal">
-                                    <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i
-                                        ></span>
-                                    <ul>
-                                        <li>
-                                            <strong>Unity3D</strong> game engine
-                                        </li>
-                                        <li>
-                                            <strong>SQLite</strong> database
-                                        </li>
-                                        <li><strong>C#/Mono</strong> as main programming language</li>
-                                    </ul>
-                                    <div class="card-action">
-                                        <a
-                                            aria-label="Visit the GitHub repo for Warcraft2Unity3D project"
-                                            href="https://github.com/LuigiElleBalotta/UnityStudyProject"
-                                            target="_blank"
-                                            data-position="top"
-                                            data-tooltip="View Source"
-                                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                                            ><i class="fa fa-github"></i
-                                            ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Saved By the Text-->
-                        <div class="col s12 m6 l4">
-                            <div class="card medium">
-                                <div class="card-image waves-effect waves-block waves-light">
-                                    <img
-                                        alt="Virus: Chronicles of Death logo"
-                                        src="assets/img/misc/virus.jpg"
-                                        class="activator"
-                                        />
-                                </div>
-                                <div class="card-content">
-                                    <span class="card-title activator teal-text hoverline"
-                                        >Virus: Chronicles of Death<i
-                                        class="mdi-navigation-more-vert right"
-                                        ></i
-                                        ></span>
-                                    <p>
-                                        A game made with Unity3D inspired by a table RPG game like Dungeons & Dragons
-                                    </p>
-                                </div>
-                                <div class="card-reveal">
-                                    <span class="card-title brown-text"
-                                        >Accomplishments<i class="mdi-navigation-close right"></i
-                                        ></span>
-                                    <ul>
-                                        <li>
-                                            <strong>Unity3D</strong> game engine
-                                        </li>
-                                        <li>
-                                            <strong>SQLite</strong> database
-                                        </li>
-                                        <li><strong>C#/Mono</strong> as main programming language</li>
-                                    </ul>
-                                    <div class="card-action">
-                                        <a
-                                            aria-label="Visit the GitHub repo for Virus: Chronicles of Death project"
-                                            href="https://github.com/LuigiElleBalotta/VCOD"
-                                            target="_blank"
-                                            data-position="top"
-                                            data-tooltip="View Source"
-                                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                                            ><i class="fa fa-github"></i
-                                            ></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills" class="section scrollspy">
-                <h3 class="page-title white-text teal">Skills</h3>
-                <div class="container">
-                    <div class="card">
-                        <div class="card-content">
-                            <h4 class="brown-text light">Client Side</h4>
-                            <div class="row text-center">
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/html5.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            HTML5
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/javascript.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Javascript
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/jquery.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            jQuery
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/angular.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Angular
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/nodejs.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Node
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/ionic.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Ionic
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/react.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            React
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <h4 class="brown-text light">CSS</h4>
-                            <div class="row text-center">
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/css3.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            CSS3
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                                alt=""
-                                                src="assets/img/bootstrap.png"
-                                                class="responsive-img"
-                                                />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Bootstrap
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                                alt=""
-                                                src="assets/img/materialize.png"
-                                                class="responsive-img"
-                                                />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Materialize
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <h4 class="brown-text light">Back-End</h4>
-                            <div class="row text-center">
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                                alt=""
-                                                src="assets/img/skills/netcore.png"
-                                                class="responsive-img"
-                                                />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            .NET Core
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/nodejs.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            NodeJS
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/1200px-PHP-logo.svg.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            PHP
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/python.jpg"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Python
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-content">
-                            <h4 class="brown-text light">Other</h4>
-                            <div class="row text-center">
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/github.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Github
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/wordpress.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Wordpress
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/django.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Django Rest Framework
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/swift.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Swift 5
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/xamarin.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Xamarin
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/skills/cpp.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            C++
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/loghi/firebase.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Firebase
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col s4 m2">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img
-                                            alt=""
-                                            src="assets/img/loghi/laravel.png"
-                                            class="responsive-img"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12 text-center">
-                                            Laravel
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="awards" class="section scrollspy">
-                <h3 class="page-title white-text teal">Awards</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/xamarin.jpg">
-                                    <span class="card-title">Xamarin.Forms</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Build Native Cross-Platform Apps with C#
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>18 Feb 2020</em>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/python_django_bootstrap.jpg">
-                                    <span class="card-title">Python 3</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Django 2, Python 3 & Bootstrap 4
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>24 Aug 2019</em>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/python_django_bootstrap.jpg">
-                                    <span class="card-title">Django Rest Framework</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Guida per Sviluppatori a Django REST Framework e Vue JS
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>28 Aug 2019</em>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/mcsa.png">
-                                    <span class="card-title">Microsoft Certified Solutions Associate</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Microsoft SQL Server 2016 Certificate
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>16 May 2017</em>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/ReactForTheRestOfUs.jpg">
-                                    <span class="card-title">React</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Creazione di Single Page Applications (SPA) usando standard moderni come Context, Reducer, Suspense e altro
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>28 Aug 2020</em>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/FirebaseCourse.jpg">
-                                    <span class="card-title">Firebase</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Creazione di applicazioni serverless usando Firebase e AngularFire
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>10 Feb 2022</em>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img src="assets/img/certificates/LaravelCourse.jpg">
-                                    <span class="card-title">Laravel</span>
-                                </div>
-                                <div class="card-content">
-                                    <p>
-                                        Creazione di applicazioni e siti web usando Laravel
-                                    </p>
-                                </div>
-                                <div class="card-action right">
-                                    <em>30 Mag 2022</em>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="education" class="section scrollspy">
-                <h3 class="page-title white-text teal">Education</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-content">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a href="https://www.poloromani.edu.it/" class="teal-text hoverline"
-                                            >Polo Scolastico G. Romani</a
-                                            ></span
-                                            >
-                                    </p>
-                                    <p class="brown-text">Casalmaggiore, CR</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col s12 m6">
-                            <div class="card">
-                                <div class="card-content">
-                                    <p>
-                                        <span class="card-title"
-                                            ><a href="https://www.londonappbrewery.com/" class="teal-text hoverline"
-                                            >London App Brewery</a
-                                            ></span
-                                            >
-                                    </p>
-                                    <p class="brown-text">Udemy Website</p>
-                                    <ul>
-                                        <li><a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/?referralCode=D3530B180A3ECABC6056%22" target="_blank">iOS 13 & Swift 5 - The Complete iOS App Development Bootcamp</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="contact" class="section scrollspy full-height">
-                <h3 class="page-title white-text teal">Contact</h3>
-                <div class="container">
-                    <p>
-                        <a
-                            aria-label="Email Luigi"
-                            href="mailto:luigibalotta@live.it"
-                            data-position="top"
-                            data-tooltip="Email Luigi"
-                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                            ><i class="fa fa-envelope"></i
-                            ><a
-                            aria-label="Email Luigi"
-                            href="mailto:luigibalotta@live.it"
-                            class="hoverline"
-                            >luigibalotta@live.it</a
-                            ></a
-                            >
-                    </p>
-                    <p>
-                        <a
-                            aria-label="View Luigi on GitHub"
-                            href="https://github.com/LuigiElleBalotta"
-                            target="_blank"
-                            data-position="top"
-                            data-tooltip="View Luigi on GitHub"
-                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                            ><i class="fa fa-github"></i
-                            ><a
-                            aria-label="Luigi on Github"
-                            href="https://github.com/LuigiElleBalotta"
-                            class="hoverline"
-                            >github.com/LuigiElleBalotta</a
-                            ></a
-                            >
-                    </p>
-                    <p>
-                        <a
-                            aria-label="View Luigi on LinkedIn"
-                            href="https://www.linkedin.com/in/luigi-balotta-4304a5123/"
-                            target="_blank"
-                            data-position="top"
-                            data-tooltip="View Luigi on LinkedIn"
-                            class="btn-floating btn-large waves-effect waves-light brown tooltipped"
-                            ><i class="fa fa-linkedin"></i
-                            ><a
-                            aria-label="Luigi on LinkedIn"
-                            href="https://www.linkedin.com/in/luigi-balotta-4304a5123/"
-                            class="hoverline"
-                            >linkedin.com/in/luigi-balotta-4304a5123</a
-                            ></a
-                            >
-                    </p>
-                </div>
-            </section>
-            <!--
-            <section id="blog" class="section scrollspy full-height">
-                <h3 class="page-title white-text teal">Blog</h3>
-                <div class="container">
-                    <h4 id="posts-2020">2020</h4>
-                    <ol aria-labelledby="posts-2020">
-                        <li>
-                            <a
-                                class="hoverline"
-                                href="blog/moving-my-blog-to-eleventy-part-3/index.html"
-                                >Moving my blog to Eleventy, Part 3: Creating Layouts</a
-                                >
-                            <dl>
-                                <dd>Published:</span>
-                                <dt>
-                                    <time datetime="2020-06-25T00:00:00+00:00">
-                                    June 25, 2020
-                                    </time>
-                                </dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <a
-                                class="hoverline"
-                                href="blog/moving-my-blog-to-eleventy-part-2/index.html"
-                                >Moving my blog to Eleventy, Part 2: Getting Started</a
-                                >
-                            <dl>
-                                <dd>Published:</span>
-                                <dt>
-                                    <time datetime="2020-05-13T00:00:00+00:00">
-                                    May 13, 2020
-                                    </time>
-                                </dt>
-                            </dl>
-                        </li>
-                        <li>
-                            <a
-                                class="hoverline"
-                                href="blog/moving-my-blog-to-eleventy-part-1/index.html"
-                                >Moving my blog to Eleventy, Part 1: Installing Node with NVM</a
-                                >
-                            <dl>
-                                <dd>Published:</span>
-                                <dt>
-                                    <time datetime="2020-05-06T00:00:00+00:00">
-                                    May 6, 2020
-                                    </time>
-                                </dt>
-                            </dl>
-                        </li>
-                    </ol>
-                    <h4 id="posts-2019">2019</h4>
-                    <ol aria-labelledby="posts-2019">
-                        <li>
-                            <a
-                                class="hoverline"
-                                href="blog/hello-world-and-why-im-blogging/index.html"
-                                >Hello, world. And why I'm blogging.</a
-                                >
-                            <dl>
-                                <dd>Published:</span>
-                                <dt>
-                                    <time datetime="2019-09-02T00:00:00+00:00">
-                                    September 2, 2019
-                                    </time>
-                                </dt>
-                            </dl>
-                        </li>
-                    </ol>
-                </div>
-            </section>-->
-        </main>
-        <!--
-            Google Analytics
-            -------------------------------------------------
-            If you want to enable your own account, assign analyticsId to your
-            google analytics id, which should be the numbers following "UA-", e.g.
-            var analyticsId = "12345678-9"
-            -->
-        <script>
-            var analyticsId = '150636466-1';
-            
-            // If analytics id has been manually defined
-            if (analyticsId) {
-              // Initialize GA with local var
-              initGoogleAnalytics(analyticsId);
-            } else {
-              // Initialize GA with Netlify env var available via lamba function
-              fetch("/.netlify/functions/env_vars")
-                .then(getEnvVar)
-                .then(initGoogleAnalytics)
-                .catch(handleError);
-            }
-            
-            // -------------------------------------------------
-            // Helper Functions
-            // --------------------------------------------------
-            
-            function handleError(error) {
-              console.log("error", error);
-            }
-            
-            function getEnvVar(response) {
-              // If the request was successful
-              if (response.ok) {
-                // Return the response text
-                return response.text();
-              } else {
-                // Return a rejected Promise object, triggering the .catch()
-                return Promise.reject(response);
-              }
-            }
-            
-            // Set Up Google Analytics
-            function initGoogleAnalytics(analyticsId) {
-              if (analyticsId) {
-                // Inject the Google Analytics Tag Manager script into the DOM
-                analyticsUrl =
-                  "https://www.googletagmanager.com/gtag/js?id=UA-" + analyticsId;
-                var ref = document.getElementsByTagName("script")[0];
-                var script = document.createElement("script");
-                script.src = analyticsUrl;
-                ref.parentNode.insertBefore(script, ref);
-            
-                // Initialize Google Analytics
-                window.dataLayer = window.dataLayer || [];
-                function gtag() {
-                  dataLayer.push(arguments);
-                }
-                gtag("js", new Date());
-                gtag("config", "UA-" + analyticsId);
-              }
-            }
-        </script>
-        <!-- jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <!-- Materialize - Compiled and minified JavaScript-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-        <script>
-            // Materialize - Initializers
-            $(document).ready(function () {
-              $(".scrollspy").scrollSpy();
-              // Initialize collapse button
-              $(".button-collapse").sideNav({
-                menuWidth: 190, // Default is 240
-                edge: "left", // Choose the horizontal origin
-                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-              });
-            });
-        </script>
-        <!-- prettier-ignore -->
-        <small hidden>
-        ___                       ___           ___                    ___                                     ___
-        /\  \                     /\__\         /\  \                  /\__\                      ___          /\__\
-        \:\  \       ___         /:/ _/_        \:\  \                /:/ _/_       ___          /\  \        /:/ _/_
-        \:\  \     /\__\       /:/ /\  \        \:\  \              /:/ /\__\     /\__\         \:\  \      /:/ /\__\
-        ___ /::\  \   /:/__/      /:/ /::\  \   ___ /::\  \            /:/ /:/  /    /:/__/          \:\  \    /:/ /:/ _/_
-        /\  /:/\:\__\ /::\  \     /:/__\/\:\__\ /\  /:/\:\__\          /:/_/:/  /    /::\  \      ___  \:\__\  /:/_/:/ /\__\
-        \:\/:/  \/__/ \/\:\  \__  \:\  \ /:/  / \:\/:/  \/__/          \:\/:/  /     \/\:\  \__  /\  \ |:|  |  \:\/:/ /:/  /
-        \::/__/       ~~\:\/\__\  \:\  /:/  /   \::/__/                \::/__/       ~~\:\/\__\ \:\  \|:|  |   \::/_/:/  /
-        \:\  \          \::/  /   \:\/:/  /     \:\  \                 \:\  \          \::/  /  \:\__|:|__|    \:\/:/  /
-        \:\__\         /:/  /     \::/  /       \:\__\                 \:\__\         /:/  /    \::::/__/      \::/  /
-        \/__/         \/__/       \/__/         \/__/                  \/__/         \/__/      ~~~~           \/__/
-        </small>
-    </body>
-</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luigi Balotta — Full Stack Developer</title>
+  <meta name="description" content="Full Stack Developer with 10+ years of experience. Currently building the Mindicity Urban Intelligence Platform at Fabbrica Digitale, part of Gruppo TIM.">
+  <meta property="og:title" content="Luigi Balotta — Full Stack Developer">
+  <meta property="og:description" content="Full Stack Developer · Angular · NestJS · Module Federation · CesiumJS">
 
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #06060a;
+      --surface: rgba(255,255,255,0.03);
+      --border: rgba(255,255,255,0.07);
+      --border-hover: rgba(255,255,255,0.14);
+      --text-1: #f1f5f9;
+      --text-2: #94a3b8;
+      --text-3: #475569;
+      --violet: #8b5cf6;
+      --violet-dim: rgba(139,92,246,0.15);
+      --blue: #3b82f6;
+      --mono: 'JetBrains Mono', monospace;
+      --sans: 'Inter', -apple-system, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    ::-webkit-scrollbar { width: 5px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 9999px; }
+
+    body {
+      background: var(--bg);
+      color: var(--text-1);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── Floating Nav Pill ─────────────────────────── */
+    #nav-pill {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      background: rgba(15, 15, 20, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 9999px;
+      padding: 6px 8px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5), 0 0 0 0.5px rgba(255,255,255,0.04) inset;
+      white-space: nowrap;
+    }
+
+    #nav-pill a {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-3);
+      transition: color 0.15s, background 0.15s;
+    }
+    #nav-pill a:hover { color: var(--text-1); background: rgba(255,255,255,0.06); }
+    #nav-pill a.active { color: var(--text-1); background: rgba(255,255,255,0.08); }
+
+    #nav-pill .sep {
+      width: 1px;
+      height: 14px;
+      background: rgba(255,255,255,0.08);
+      margin: 0 2px;
+    }
+
+    /* Mobile nav top bar */
+    #mobile-bar {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      height: 52px;
+      background: rgba(6,6,10,0.9);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+    }
+    #mobile-bar .brand { font-weight: 700; font-size: 0.9rem; letter-spacing: -0.02em; }
+    #mobile-bar button { background: none; border: none; cursor: pointer; color: var(--text-2); padding: 4px; }
+
+    #mobile-drawer {
+      display: none;
+      position: fixed;
+      top: 52px; left: 0; right: 0;
+      z-index: 99;
+      background: rgba(6,6,10,0.97);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px 20px;
+      flex-direction: column;
+      gap: 2px;
+    }
+    #mobile-drawer a {
+      padding: 10px 12px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-2);
+      transition: color 0.15s, background 0.15s;
+    }
+    #mobile-drawer a:hover { color: var(--text-1); background: rgba(255,255,255,0.05); }
+
+    /* ── Animated Orbs ─────────────────────────────── */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+      will-change: transform;
+    }
+    .orb-1 {
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(109,40,217,0.18) 0%, transparent 70%);
+      top: -100px; right: -100px;
+      animation: drift-1 18s ease-in-out infinite;
+    }
+    .orb-2 {
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(37,99,235,0.12) 0%, transparent 70%);
+      bottom: -50px; left: 5%;
+      animation: drift-2 22s ease-in-out infinite;
+    }
+    .orb-3 {
+      width: 350px; height: 350px;
+      background: radial-gradient(circle, rgba(124,58,237,0.1) 0%, transparent 70%);
+      top: 40%; left: 40%;
+      animation: drift-3 16s ease-in-out infinite;
+    }
+
+    @keyframes drift-1 {
+      0%, 100% { transform: translate(0,0) scale(1); }
+      33%  { transform: translate(-60px, 40px) scale(1.06); }
+      66%  { transform: translate(40px, -30px) scale(0.95); }
+    }
+    @keyframes drift-2 {
+      0%, 100% { transform: translate(0,0) scale(1); }
+      40%  { transform: translate(50px, -60px) scale(1.08); }
+      70%  { transform: translate(-30px, 20px) scale(0.94); }
+    }
+    @keyframes drift-3 {
+      0%, 100% { transform: translate(0,0); }
+      50%  { transform: translate(30px, -40px); }
+    }
+
+    /* ── HERO ──────────────────────────────────────── */
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 120px 80px 140px;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    .hero-photo-name {
+      display: flex;
+      align-items: flex-end;
+      gap: 40px;
+      margin-bottom: 28px;
+    }
+
+    .hero-photo {
+      flex-shrink: 0;
+      position: relative;
+    }
+    .hero-photo img {
+      width: 108px;
+      height: 108px;
+      border-radius: 20px;
+      object-fit: cover;
+      object-position: center top;
+      border: 1px solid rgba(255,255,255,0.1);
+      display: block;
+    }
+    .hero-photo .status-dot {
+      position: absolute;
+      bottom: -5px; right: -5px;
+      width: 18px; height: 18px;
+      background: #06060a;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-photo .status-dot::after {
+      content: '';
+      width: 10px; height: 10px;
+      background: #22c55e;
+      border-radius: 50%;
+      animation: pulse-green 2.5s ease-in-out infinite;
+    }
+    @keyframes pulse-green {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.6; transform: scale(0.85); }
+    }
+
+    .hero-name {
+      font-size: clamp(3.5rem, 8vw, 8rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 0.9;
+      color: var(--text-1);
+    }
+    .hero-name .name-line-2 {
+      background: linear-gradient(135deg, #fff 20%, #a78bfa 60%, #818cf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-meta {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+      padding-left: 148px;
+    }
+    .hero-meta .role {
+      font-size: 1rem;
+      color: var(--text-2);
+      font-weight: 400;
+    }
+    .hero-meta .sep { color: var(--text-3); }
+    .hero-meta .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.8rem;
+      font-family: var(--mono);
+      color: var(--text-2);
+      background: rgba(139,92,246,0.1);
+      border: 1px solid rgba(139,92,246,0.25);
+      padding: 4px 12px;
+      border-radius: 9999px;
+    }
+    .hero-meta .badge-dot {
+      width: 7px; height: 7px;
+      background: #22c55e;
+      border-radius: 50%;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding-left: 148px;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--violet);
+      color: #fff;
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: background 0.15s, transform 0.1s;
+    }
+    .btn-primary:hover { background: #7c3aed; transform: translateY(-1px); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.06);
+      color: var(--text-1);
+      padding: 10px 22px;
+      border-radius: 10px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.1); border-color: var(--border-hover); transform: translateY(-1px); }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      color: var(--text-3);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: color 0.15s, background 0.15s;
+    }
+    .btn-ghost:hover { color: var(--text-1); background: rgba(255,255,255,0.05); }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      color: var(--text-3);
+      font-size: 0.7rem;
+      font-family: var(--mono);
+      letter-spacing: 0.08em;
+      animation: bounce-down 2s ease-in-out infinite;
+    }
+    @keyframes bounce-down {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(5px); }
+    }
+
+    /* ── Section shared ────────────────────────────── */
+    .section {
+      padding: 120px 80px;
+      border-top: 1px solid var(--border);
+      position: relative;
+    }
+
+    .section-inner { max-width: 1100px; margin: 0 auto; }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.7rem;
+      font-family: var(--mono);
+      font-weight: 500;
+      color: var(--violet);
+      background: var(--violet-dim);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      border: 1px solid rgba(139,92,246,0.25);
+      margin-bottom: 28px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .section-title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--text-1);
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+
+    .section-sub {
+      font-size: 1rem;
+      color: var(--text-3);
+      margin-bottom: 64px;
+      font-weight: 400;
+    }
+
+    /* ── ABOUT ─────────────────────────────────────── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      margin-bottom: 80px;
+    }
+
+    .about-statement {
+      font-size: 1.35rem;
+      font-weight: 300;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+    .about-statement strong { color: var(--text-1); font-weight: 500; }
+
+    .about-bio { display: flex; flex-direction: column; gap: 16px; }
+    .about-bio p {
+      font-size: 0.95rem;
+      color: var(--text-2);
+      line-height: 1.8;
+    }
+    .about-bio a {
+      color: #a78bfa;
+      border-bottom: 1px solid rgba(167,139,250,0.3);
+      transition: border-color 0.15s;
+    }
+    .about-bio a:hover { border-color: rgba(167,139,250,0.7); }
+
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .stat-item {
+      background: var(--bg);
+      padding: 36px 40px;
+      text-align: center;
+    }
+    .stat-number {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      background: linear-gradient(135deg, #fff 30%, #a78bfa 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-3);
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* ── EXPERIENCE ────────────────────────────────── */
+    .exp-list { display: flex; flex-direction: column; }
+
+    .exp-entry {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 48px;
+      padding: 48px 0;
+      border-bottom: 1px solid var(--border);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    .exp-entry:first-child { padding-top: 0; }
+    .exp-entry:last-child { border-bottom: none; }
+    .exp-entry.visible { opacity: 1; transform: translateY(0); }
+
+    .exp-dates {
+      padding-top: 4px;
+    }
+    .exp-period {
+      font-family: var(--mono);
+      font-size: 0.78rem;
+      color: var(--text-3);
+      line-height: 1.6;
+    }
+    .exp-period .current {
+      display: inline-block;
+      margin-top: 4px;
+      font-size: 0.65rem;
+      background: rgba(34,197,94,0.15);
+      color: #4ade80;
+      border: 1px solid rgba(34,197,94,0.25);
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-family: var(--mono);
+    }
+
+    .exp-content {}
+
+    .exp-role {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--text-1);
+      margin-bottom: 3px;
+    }
+
+    .exp-company {
+      font-size: 0.875rem;
+      color: #a78bfa;
+      font-weight: 500;
+      margin-bottom: 4px;
+      transition: color 0.15s;
+    }
+    .exp-company:hover { color: #c4b5fd; }
+
+    .exp-location {
+      font-size: 0.75rem;
+      color: var(--text-3);
+      font-family: var(--mono);
+      margin-bottom: 18px;
+    }
+
+    .exp-desc {
+      font-size: 0.9rem;
+      color: var(--text-2);
+      line-height: 1.75;
+      margin-bottom: 16px;
+      max-width: 640px;
+    }
+
+    .exp-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+    .exp-bullets li {
+      display: flex;
+      gap: 10px;
+      font-size: 0.875rem;
+      color: var(--text-2);
+      line-height: 1.65;
+    }
+    .exp-bullets li::before {
+      content: '→';
+      color: var(--violet);
+      flex-shrink: 0;
+      margin-top: 1px;
+      font-size: 0.85rem;
+    }
+    .exp-bullets li strong { color: #cbd5e1; font-weight: 500; }
+
+    .exp-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .tag {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      font-weight: 500;
+      color: var(--text-3);
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      padding: 3px 9px;
+      border-radius: 4px;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tag:hover { color: var(--text-2); border-color: var(--border-hover); }
+
+    /* ── SKILLS ────────────────────────────────────── */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    .skill-group {
+      background: var(--bg);
+      padding: 28px 32px;
+    }
+
+    .skill-group-label {
+      font-size: 0.65rem;
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-3);
+      margin-bottom: 16px;
+    }
+
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .skill-tag {
+      font-family: var(--mono);
+      font-size: 0.75rem;
+      color: var(--text-2);
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: color 0.15s, background 0.15s, border-color 0.15s;
+    }
+    .skill-tag:hover { color: var(--text-1); background: rgba(255,255,255,0.08); border-color: var(--border-hover); }
+
+    .skill-tag.primary {
+      color: #c4b5fd;
+      background: rgba(139,92,246,0.1);
+      border-color: rgba(139,92,246,0.25);
+    }
+
+    /* ── PROJECTS ──────────────────────────────────── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+    }
+
+    .project-card {
+      background: rgba(255,255,255,0.02);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease, border-color 0.2s;
+    }
+    .project-card.visible { opacity: 1; transform: translateY(0); }
+    .project-card:hover {
+      border-color: var(--border-hover);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+    }
+
+    .project-img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      display: block;
+      border-bottom: 1px solid var(--border);
+      filter: brightness(0.85) saturate(0.9);
+      transition: filter 0.2s;
+    }
+    .project-card:hover .project-img { filter: brightness(1) saturate(1); }
+
+    .project-body { padding: 20px 22px; }
+
+    .project-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    .project-name {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-1);
+    }
+
+    .project-link {
+      color: var(--text-3);
+      transition: color 0.15s;
+      flex-shrink: 0;
+    }
+    .project-link:hover { color: var(--text-2); }
+
+    .project-desc {
+      font-size: 0.82rem;
+      color: var(--text-3);
+      line-height: 1.6;
+      margin-bottom: 14px;
+    }
+
+    .project-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+    /* ── CONTACT ───────────────────────────────────── */
+    .contact-center {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .contact-heading {
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #fff 30%, #a78bfa 70%, #818cf8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .contact-sub {
+      font-size: 1rem;
+      color: var(--text-3);
+      margin-bottom: 48px;
+      line-height: 1.6;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px 20px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: background 0.15s, border-color 0.15s, transform 0.15s;
+    }
+    .contact-row:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+    }
+    .contact-icon {
+      width: 36px; height: 36px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      color: var(--text-3);
+    }
+    .contact-info { flex: 1; text-align: left; }
+    .contact-info .label { font-size: 0.8rem; font-weight: 500; color: var(--text-2); margin-bottom: 1px; }
+    .contact-info .value { font-size: 0.75rem; font-family: var(--mono); color: var(--text-3); }
+    .contact-arrow { color: var(--text-3); }
+
+    /* ── FOOTER ────────────────────────────────────── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    footer p { font-size: 0.72rem; font-family: var(--mono); color: var(--text-3); }
+    footer .footer-links { display: flex; gap: 20px; }
+    footer .footer-links a {
+      font-size: 0.72rem;
+      font-family: var(--mono);
+      color: var(--text-3);
+      transition: color 0.15s;
+    }
+    footer .footer-links a:hover { color: var(--text-2); }
+
+    /* ── GSAP init states ──────────────────────────── */
+    .reveal { opacity: 0; transform: translateY(24px); }
+
+    /* ── Responsive ────────────────────────────────── */
+    @media (max-width: 900px) {
+      #hero { padding: 80px 24px 120px; }
+      .hero-meta, .hero-cta { padding-left: 0; }
+      .hero-photo-name { flex-direction: column; align-items: flex-start; gap: 20px; }
+      .section { padding: 80px 24px; }
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .stats-row { grid-template-columns: 1fr 1fr; }
+      .exp-entry { grid-template-columns: 1fr; gap: 12px; }
+      .exp-dates { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+      .skills-grid { grid-template-columns: 1fr 1fr; }
+      .projects-grid { grid-template-columns: 1fr; }
+      footer { padding: 24px; }
+      #nav-pill { display: none !important; }
+      #mobile-bar { display: flex; }
+    }
+    @media (max-width: 600px) {
+      .hero-name { font-size: 3rem; }
+      .stats-row { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: 1fr; }
+      .hero-photo-name { margin-bottom: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── FLOATING NAV PILL ────────────────────────── -->
+  <nav id="nav-pill" aria-label="Main navigation">
+    <a href="#hero" class="active" data-section="hero">Home</a>
+    <div class="sep"></div>
+    <a href="#about" data-section="about">About</a>
+    <div class="sep"></div>
+    <a href="#experience" data-section="experience">Experience</a>
+    <div class="sep"></div>
+    <a href="#skills" data-section="skills">Skills</a>
+    <div class="sep"></div>
+    <a href="#projects" data-section="projects">Projects</a>
+    <div class="sep"></div>
+    <a href="#contact" data-section="contact">Contact</a>
+  </nav>
+
+  <!-- ── MOBILE TOP BAR ───────────────────────────── -->
+  <header id="mobile-bar" aria-label="Mobile navigation">
+    <span class="brand">Luigi Balotta</span>
+    <button id="mob-toggle" aria-label="Toggle menu">
+      <svg id="icon-menu" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <svg id="icon-close" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+    </button>
+  </header>
+  <nav id="mobile-drawer" style="display:none;" aria-label="Mobile menu">
+    <a href="#hero" onclick="closeDrawer()">Home</a>
+    <a href="#about" onclick="closeDrawer()">About</a>
+    <a href="#experience" onclick="closeDrawer()">Experience</a>
+    <a href="#skills" onclick="closeDrawer()">Skills</a>
+    <a href="#projects" onclick="closeDrawer()">Projects</a>
+    <a href="#contact" onclick="closeDrawer()">Contact</a>
+  </nav>
+
+  <!-- ════════════════════════════════════════════════
+       HERO
+       ════════════════════════════════════════════════ -->
+  <section id="hero">
+    <!-- Animated gradient orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Subtle grid -->
+    <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.015) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.015) 1px,transparent 1px);background-size:72px 72px;pointer-events:none;"></div>
+
+    <div class="hero-inner">
+      <!-- Photo + Name -->
+      <div class="hero-photo-name" id="hero-name-row">
+        <div class="hero-photo">
+          <img src="assets/img/profile.png" alt="Luigi Balotta">
+          <div class="status-dot"></div>
+        </div>
+        <h1 class="hero-name">
+          <span style="display:block;">Luigi</span>
+          <span class="name-line-2" style="display:block;">Balotta</span>
+        </h1>
+      </div>
+
+      <!-- Role + badge -->
+      <div class="hero-meta" id="hero-meta">
+        <span class="role">Full Stack Developer</span>
+        <span class="sep">·</span>
+        <span class="role">10+ years</span>
+        <span class="sep">·</span>
+        <span class="role">Boretto (RE), IT</span>
+        <a href="https://www.mindicity.com/" target="_blank" class="badge">
+          <span class="badge-dot"></span>
+          Fabbrica Digitale · Mindicity
+        </a>
+      </div>
+
+      <!-- CTAs -->
+      <div class="hero-cta" id="hero-cta">
+        <a href="#experience" class="btn-primary">
+          View Experience
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <a href="#contact" class="btn-secondary">Get in Touch</a>
+        <a href="https://github.com/LuigiElleBalotta" target="_blank" class="btn-ghost">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/luigi-balotta-4304a5123/" target="_blank" class="btn-ghost">
+          <svg width="15" height="15" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="hero-scroll" id="hero-scroll">
+      <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+      scroll
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════
+       ABOUT
+       ════════════════════════════════════════════════ -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <div class="section-label reveal">
+        <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+        About
+      </div>
+      <h2 class="section-title reveal">A decade of shipping software</h2>
+
+      <div class="about-grid">
+        <p class="about-statement reveal">
+          I build applications <strong>end-to-end</strong> — from Angular microfrontend widgets to NestJS APIs, geospatial visualizations in <strong>CesiumJS</strong>, and data pipelines in Apache NiFi.
+          Currently architecting the <strong>Mindicity</strong> Urban Intelligence Platform at Fabbrica Digitale, part of Gruppo TIM.
+        </p>
+
+        <div class="about-bio reveal">
+          <p>
+            Full-stack developer with 10+ years of professional experience across agencies,
+            product companies, and enterprise platforms. I work in an Nx monorepo with
+            <a href="https://webpack.js.org/concepts/module-federation/" target="_blank">Module Federation</a>,
+            practice Spec Driven Development from Figma and YouTrack, and deploy to Kubernetes via Portainer.
+          </p>
+          <p>
+            Before Mindicity, I built iOS apps for
+            <a href="https://www.inail.it/" target="_blank">INAIL</a>,
+            a crowdfunding platform with PayPal integration, advertising management systems with ERP integration,
+            and digitised back-office workflows for multiple clients.
+          </p>
+          <p>When I'm not at a keyboard, I play music with <a href="https://www.instagram.com/emptyspacesband_/" target="_blank" style="color:var(--text-1);font-weight:500;border-bottom:1px solid rgba(255,255,255,0.15);transition:border-color 0.15s;">Empty Spaces</a>.</p>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats-row reveal">
+        <div class="stat-item">
+          <div class="stat-number">10+</div>
+          <div class="stat-label">Years Professional</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Companies</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════
+       EXPERIENCE
+       ════════════════════════════════════════════════ -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <div class="section-label reveal">
+        <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+        Experience
+      </div>
+      <h2 class="section-title reveal">Work History</h2>
+      <p class="section-sub reveal">10+ years across agencies, product teams, and enterprise platforms.</p>
+
+      <div class="exp-list">
+
+        <!-- Fabbrica Digitale -->
+        <div class="exp-entry">
+          <div class="exp-dates">
+            <div class="exp-period">Dec 2022<br>— Present</div>
+            <div class="exp-period"><span class="current">current</span></div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-role">Full Stack Developer</div>
+            <a href="https://www.fabbricadigitale.com/" target="_blank" class="exp-company">Fabbrica Digitale · Mindicity</a>
+            <div class="exp-location">Casalmaggiore (CR) · Full Remote</div>
+            <p class="exp-desc">
+              Building <a href="https://www.mindicity.com/" target="_blank" style="color:#a78bfa;border-bottom:1px solid rgba(167,139,250,0.3);">Mindicity</a> — an Urban Intelligence Platform owned by Gruppo TIM (Telecom Italia), branded as <em>TIM Urban Genius</em>. The platform has an open-source foundation <a href="https://developers.italia.it/it/software/gitlab-di.mindicity.it/mindicity/core/ui/mindicity.core.ui.app.html" target="_blank" style="color:#a78bfa;border-bottom:1px solid rgba(167,139,250,0.3);">listed on Developers Italia</a> (EUPL-1.2, AgID-recognised), and is delivered as a SaaS to Italian municipalities. Clients use it to monitor and simulate city dynamics in real time: traffic, air quality, public transport, hydrogeological risk, IoT sensors, and behavioural analytics — visualised on a configurable widget dashboard, a Leaflet 2D map, and a CesiumJS 3D city view with terrain and building models.
+            </p>
+            <ul class="exp-bullets">
+              <li>Built the <strong>Mindicity Manager</strong> — a full admin application to configure every aspect of the platform: navigation menus, data sources, IoT device registry, widget types and instances, user roles and privileges, dashboard templates, and stream analysis rules</li>
+              <li>Developed independently-versioned <strong>microfrontend widgets</strong> via Module Federation in an Nx monorepo — each widget ships its own SDK and template version and is deployed in isolation; implemented from Figma specs and YouTrack issues (Spec Driven Development)</li>
+              <li>Contributed to <strong>api.core.engine</strong> — the shared backend foundation used across all platform APIs; a plugin-based architecture where a single engine instance can serve multiple API surfaces, or be built into separate service images as needed</li>
+              <li>Worked across the full stack: Angular frontend, NestJS and Python APIs, Apache NiFi data pipelines, Kubernetes via Portainer, and CesiumJS for 3D geospatial rendering</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Angular</span><span class="tag">TypeScript</span><span class="tag">NestJS</span>
+              <span class="tag">Python</span><span class="tag">Module Federation</span><span class="tag">Nx</span>
+              <span class="tag">CesiumJS</span><span class="tag">Apache NiFi</span><span class="tag">Kubernetes</span><span class="tag">GitLab</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- The BBS Way -->
+        <div class="exp-entry">
+          <div class="exp-dates">
+            <div class="exp-period">Dec 2019<br>— Nov 2022</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-role">Senior Full Stack Developer</div>
+            <a href="https://bbsway.it/agency" target="_blank" class="exp-company">The BBS Way</a>
+            <div class="exp-location">Parma, IT</div>
+            <p class="exp-desc">Full-stack developer at a digital agency covering web, mobile, and iOS projects across multiple concurrent clients — from institutional sites and WordPress platforms to custom web applications.</p>
+            <ul class="exp-bullets">
+              <li>Built an <strong>award configurator</strong> for <a href="https://www.rmpremiazioni.it/" target="_blank" style="color:#a78bfa;border-bottom:1px solid rgba(167,139,250,0.3);">RM Premiazioni</a> — a real-time tool allowing customers to compose and preview custom trophies, medals, and glass awards online</li>
+              <li>Built a <strong>furniture configurator</strong> for <a href="https://abgroup.biz/it/" target="_blank" style="color:#a78bfa;border-bottom:1px solid rgba(167,139,250,0.3);">AB Design Group</a> — an interior design and FF&amp;E procurement company; also built their website using a headless architecture (Joomla CMS + Next.js frontend for SSR and SEO), and integrated the configurator with the Italian electronic invoicing system (SDI/fatturazione elettronica)</li>
+              <li>Built <strong>Sports Fund</strong> — a crowdfunding platform for amateur sports clubs with PayPal integration and a full campaign management flow</li>
+              <li>Developed an <strong>iOS app for INAIL</strong> (National Institute for Insurance against Accidents at Work) in Swift 5</li>
+              <li>Managed WordPress sites and developed custom plugins; built cross-platform mobile apps with Xamarin.Forms</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Next.js</span><span class="tag">Angular</span><span class="tag">TypeScript</span>
+              <span class="tag">Swift 5</span><span class="tag">Xamarin.Forms</span><span class="tag">Firebase</span>
+              <span class="tag">.NET Core</span><span class="tag">Python</span><span class="tag">Django</span>
+              <span class="tag">WordPress</span><span class="tag">MySQL</span><span class="tag">SDI / e-Invoicing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transfer Oil 2019 -->
+        <div class="exp-entry">
+          <div class="exp-dates">
+            <div class="exp-period">Feb 2019<br>— Nov 2019</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-role">Full Stack Developer</div>
+            <a href="http://www.transferoil.com/" target="_blank" class="exp-company">Transfer Oil</a>
+            <div class="exp-location">Sacca, PR</div>
+            <p class="exp-desc">Sole developer responsible for all web systems, digitising business workflows directly with management.</p>
+            <ul class="exp-bullets">
+              <li>Rebuilt the public website and customer portal from scratch using Python and Django</li>
+              <li>Built invoice management and reporting pipelines against the company's AS400 legacy database</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">Python</span><span class="tag">Django</span><span class="tag">PHP</span>
+              <span class="tag">MySQL</span><span class="tag">AS400</span><span class="tag">jQuery</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Exelis -->
+        <div class="exp-entry">
+          <div class="exp-dates">
+            <div class="exp-period">Nov 2016<br>— Feb 2019</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-role">Junior Full Stack Developer</div>
+            <a href="https://www.atex.com/products/exelis/" target="_blank" class="exp-company">Exelis <span style="font-size:0.7rem;font-weight:400;color:var(--text-3);">(now Atex)</span></a>
+            <div class="exp-location">Bagnolo in Piano, RE</div>
+            <p class="exp-desc">Developed internal management software for a media company operating across TV, radio, print, and digital. Both products are now part of the <a href="https://www.atex.com/products/exelis/" target="_blank" style="color:#a78bfa;border-bottom:1px solid rgba(167,139,250,0.3);">Atex Exelis</a> suite.</p>
+            <ul class="exp-bullets">
+              <li>Built <strong>Lilium</strong> — classified and obituary ad management for print, covering the full sales and production workflow; integrated with the Mago4 (INFOR) ERP</li>
+              <li>Built <strong>Larix</strong> — end-to-end out-of-home (OOH) advertising platform: facility census, campaign scheduling, inventory allocation, and delivery verification for outdoor sites</li>
+              <li>Achieved <strong>MCSA Windows Server 2016</strong> certification</li>
+            </ul>
+            <div class="exp-tags">
+              <span class="tag">PHP</span><span class="tag">C#</span><span class="tag">Node.js</span>
+              <span class="tag">jQuery</span><span class="tag">SQL Server</span><span class="tag">SQLite</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Transfer Oil internship -->
+        <div class="exp-entry" style="opacity:0.6;">
+          <div class="exp-dates">
+            <div class="exp-period">Sep 2015<br>— Feb 2016</div>
+          </div>
+          <div class="exp-content">
+            <div class="exp-role" style="color:var(--text-2);">Junior Web Developer <span style="font-size:0.7rem;font-family:var(--mono);color:var(--text-3);font-weight:400;margin-left:6px;">internship</span></div>
+            <a href="http://www.transferoil.com/" target="_blank" class="exp-company">Transfer Oil</a>
+            <div class="exp-location">Sacca, PR</div>
+            <p class="exp-desc">Training internship — built the company website and internal utilities with PHP, jQuery, MySQL, and C# Windows Forms.</p>
+            <div class="exp-tags">
+              <span class="tag">PHP</span><span class="tag">jQuery</span><span class="tag">MySQL</span><span class="tag">C#</span><span class="tag">Windows Forms</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════
+       SKILLS
+       ════════════════════════════════════════════════ -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <div class="section-label reveal">
+        <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+        Skills
+      </div>
+      <h2 class="section-title reveal">Technical Stack</h2>
+      <p class="section-sub reveal">Technologies I reach for first — grouped by domain.</p>
+
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <div class="skill-group-label">Primary</div>
+          <div class="skill-tags">
+            <span class="skill-tag primary">TypeScript</span>
+            <span class="skill-tag primary">Angular</span>
+            <span class="skill-tag primary">NestJS</span>
+            <span class="skill-tag primary">JavaScript</span>
+            <span class="skill-tag primary">Module Federation</span>
+            <span class="skill-tag primary">Nx</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Back-End</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">.NET</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Specialized</div>
+          <div class="skill-tags">
+            <span class="skill-tag">CesiumJS</span>
+            <span class="skill-tag">Apache NiFi</span>
+            <span class="skill-tag">Microfrontends</span>
+            <span class="skill-tag">Xamarin.Forms</span>
+            <span class="skill-tag">Swift 5</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">React</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Data &amp; Infrastructure</div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL Server</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">GitLab CI</span>
+            <span class="skill-tag">Portainer</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Workflow</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">YouTrack</span>
+            <span class="skill-tag">Spec Driven Dev</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Claude Code</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Certifications</div>
+          <div class="skill-tags">
+            <span class="skill-tag">MCSA Server 2016</span>
+            <span class="skill-tag">Xamarin.Forms</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Django REST</span>
+            <span class="skill-tag">Laravel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════
+       PROJECTS
+       ════════════════════════════════════════════════ -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-label reveal">
+        <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"/></svg>
+        Projects
+      </div>
+      <h2 class="section-title reveal">Selected Work</h2>
+      <p class="section-sub reveal">Public projects — commercial work omitted for privacy.</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img class="project-img" src="assets/img/misc/sportsfund.png" alt="Sports Fund screenshot">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">Sports Fund</span>
+              <a href="https://sportsfund.it/" target="_blank" class="project-link" title="View online">
+                <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">Crowdfunding platform for amateur sports clubs — PayPal integration, full campaign management, .NET Core backend.</p>
+            <div class="project-tags">
+              <span class="tag">.NET Core</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span><span class="tag">PayPal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-img" src="assets/img/misc/trinitycore.png" alt="TrinityCore screenshot">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">TrinityCore</span>
+              <a href="https://github.com/TrinityCore/TrinityCore" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">Open-source WoW MMO emulator. Contributed to the C++ server engine and MySQL database layer.</p>
+            <div class="project-tags">
+              <span class="tag">C++</span><span class="tag">MySQL</span><span class="tag">Open Source</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-img" src="assets/img/misc/Unity.jpg" alt="Warcraft 2 Unity3D">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">Warcraft 2 Unity3D</span>
+              <a href="https://github.com/LuigiElleBalotta/UnityStudyProject" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">Study project rebuilding WoW client architecture in Unity3D with C#/Mono and a SQLite data layer.</p>
+            <div class="project-tags">
+              <span class="tag">Unity3D</span><span class="tag">C#/Mono</span><span class="tag">SQLite</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img class="project-img" src="assets/img/misc/virus.jpg" alt="Virus: Chronicles of Death">
+          <div class="project-body">
+            <div class="project-header">
+              <span class="project-name">Virus: Chronicles of Death</span>
+              <a href="https://github.com/LuigiElleBalotta/VCOD" target="_blank" class="project-link" title="View on GitHub">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+            </div>
+            <p class="project-desc">Unity3D RPG game inspired by tabletop D&amp;D. Turn-based combat, C#/Mono, SQLite for game state persistence.</p>
+            <div class="project-tags">
+              <span class="tag">Unity3D</span><span class="tag">C#/Mono</span><span class="tag">SQLite</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════════════
+       CONTACT
+       ════════════════════════════════════════════════ -->
+  <section id="contact" class="section">
+    <div class="section-inner">
+      <div class="contact-center">
+        <div class="section-label reveal" style="margin:0 auto 28px;">
+          <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          Contact
+        </div>
+        <h2 class="contact-heading reveal">Let's work<br>together.</h2>
+        <p class="contact-sub reveal">Open to senior IC and tech lead roles.<br>Interested in product engineering, platform work, and high-craft teams.</p>
+
+        <div class="contact-links reveal">
+          <a href="mailto:bigelle96@gmail.com" class="contact-row">
+            <div class="contact-icon">
+              <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </div>
+            <div class="contact-info">
+              <div class="label">Email</div>
+              <div class="value">bigelle96@gmail.com</div>
+            </div>
+            <svg class="contact-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/luigi-balotta-4304a5123/" target="_blank" class="contact-row">
+            <div class="contact-icon">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </div>
+            <div class="contact-info">
+              <div class="label">LinkedIn</div>
+              <div class="value">luigi-balotta-4304a5123</div>
+            </div>
+            <svg class="contact-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+
+          <a href="https://github.com/LuigiElleBalotta" target="_blank" class="contact-row">
+            <div class="contact-icon">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </div>
+            <div class="contact-info">
+              <div class="label">GitHub</div>
+              <div class="value">LuigiElleBalotta</div>
+            </div>
+            <svg class="contact-arrow" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ────────────────────────────────────── -->
+  <footer>
+    <p>© 2025 Luigi Balotta · GitHub Pages</p>
+    <div class="footer-links">
+      <a href="https://github.com/LuigiElleBalotta" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/luigi-balotta-4304a5123/" target="_blank">LinkedIn</a>
+      <a href="mailto:bigelle96@gmail.com">Email</a>
+    </div>
+  </footer>
+
+  <!-- ── GSAP ──────────────────────────────────────── -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // ── Hero entrance ──────────────────────────────
+    const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    tl.fromTo('#hero-name-row', { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.9 })
+      .fromTo('#hero-meta',     { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.7 }, '-=0.5')
+      .fromTo('#hero-cta',      { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.6 }, '-=0.45')
+      .fromTo('#hero-scroll',   { opacity: 0 },         { opacity: 1, duration: 0.5 },       '-=0.2');
+
+    // ── Scroll reveal: .reveal elements ───────────
+    gsap.utils.toArray('.reveal').forEach(el => {
+      gsap.fromTo(el,
+        { opacity: 0, y: 28 },
+        {
+          opacity: 1, y: 0,
+          duration: 0.65,
+          ease: 'power2.out',
+          scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none none' }
+        }
+      );
+    });
+
+    // ── Experience entries: IntersectionObserver ───
+    const expObserver = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          expObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.exp-entry').forEach(el => expObserver.observe(el));
+
+    // ── Project cards: IntersectionObserver ───────
+    const projObserver = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 80);
+          projObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.project-card').forEach(el => projObserver.observe(el));
+
+    // ── Active nav pill link on scroll ────────────
+    const sections = document.querySelectorAll('section[id]');
+    const pillLinks = document.querySelectorAll('#nav-pill a[data-section]');
+
+    const navObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          pillLinks.forEach(a => a.classList.toggle('active', a.dataset.section === entry.target.id));
+        }
+      });
+    }, { threshold: 0.3, rootMargin: '-5% 0px -60% 0px' });
+    sections.forEach(s => navObserver.observe(s));
+
+    // ── Hide scroll hint after first scroll ───────
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        document.getElementById('hero-scroll').style.opacity = '0';
+      }
+    }, { passive: true, once: true });
+
+    // ── Mobile menu ───────────────────────────────
+    let drawerOpen = false;
+    document.getElementById('mob-toggle').addEventListener('click', () => {
+      drawerOpen = !drawerOpen;
+      const drawer = document.getElementById('mobile-drawer');
+      drawer.style.display = drawerOpen ? 'flex' : 'none';
+      document.getElementById('icon-menu').style.display  = drawerOpen ? 'none'  : 'block';
+      document.getElementById('icon-close').style.display = drawerOpen ? 'block' : 'none';
+    });
+
+    function closeDrawer() {
+      drawerOpen = false;
+      document.getElementById('mobile-drawer').style.display = 'none';
+      document.getElementById('icon-menu').style.display  = 'block';
+      document.getElementById('icon-close').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
